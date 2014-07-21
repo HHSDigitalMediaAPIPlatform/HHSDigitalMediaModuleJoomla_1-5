@@ -1,0 +1,7 @@
+div[id$="cdccs_topictree_control"], div[id$="cdccs_preview_div"] {
+    float:left;
+}
+div.jpane-slider {
+    /*overflow : visible !important; */
+    height : auto !important;
+}

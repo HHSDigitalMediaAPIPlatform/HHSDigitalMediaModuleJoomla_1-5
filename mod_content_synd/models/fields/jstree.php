@@ -21,6 +21,7 @@ class JElementJSTree extends JElementHidden
         $doc = JFactory::getDocument();
         $doc->addStyleSheet(JURI::root() . 'modules/mod_content_synd/html/css/treestyle.css');
         $doc->addStyleSheet(JURI::root() . 'modules/mod_content_synd/html/css/mod_content_synd.css');
+        $doc->addStyleSheet(JURI::root() . 'modules/mod_content_synd/html/css/jquery-ui.css');
         if ($needsJQuery) {
             $doc->addScript(JURI::root() . 'modules/mod_content_synd/html/js/jquery-1.9.1.js');
             $doc->addScriptDeclaration('jQuery.noConflict();');
@@ -28,6 +29,7 @@ class JElementJSTree extends JElementHidden
         $doc->addScript(JURI::root() . 'modules/mod_content_synd/html/js/jstree.js');
         $doc->addScript(JURI::root() . 'modules/mod_content_synd/html/js/jquery.maskedinput.js');
         $doc->addScript(JURI::root() . 'modules/mod_content_synd/html/js/mod_content_synd.js');
+        $doc->addScript(JURI::root() . 'modules/mod_content_synd/html/js/jquery-ui.js');
 
         $style = 'div.jpane-slider {overflow : visible !important; height : auto !important;}';
         //$doc->addStyleDeclaration($style);

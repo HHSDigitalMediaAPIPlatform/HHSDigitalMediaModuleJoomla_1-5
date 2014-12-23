@@ -1,9 +1,9 @@
 <?php
 /**
-* @copyright    Copyright (C) 2009 Open Source Matters. All rights reserved.
-* @license      GNU/GPL
-*/
- 
+ * @author HHS
+ * @copyright (C) 2014 - HHS
+ * @license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */
 // Check to ensure this file is within the rest of the framework
 defined('JPATH_BASE') or die();
  

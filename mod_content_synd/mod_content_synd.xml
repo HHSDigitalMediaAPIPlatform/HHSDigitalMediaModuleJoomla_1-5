@@ -4,6 +4,7 @@
     <author>HHS</author>
     <version>1.1.0</version>
     <description>A module for selecting and inserting syndicated content.</description>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
     <files>
         <filename>mod_content_synd.xml</filename>
         <filename module="mod_content_synd">mod_content_synd.php</filename>
